@@ -5,80 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lagoona</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
-            <a href="#" class="header-logo">
-                <img src="img/logo.svg" class="header-logo" alt="Lagoona">
-            </a>
-            <a href="tel:+74953225448" class="header-contact">
-                +7 495 322-54-48
-            </a>
-            <a href="#" class="header-private">
-                Личный кабинет
-            </a>
-            <nav class="header-nav">
-                <ul class="header-list">
-                    <li class="header-list-item">
-                        <a href="#hero" class="header-link">
-                            О нас
-                        </a>
+        <div class="container flex header-container">
+            <div class="header-inf flex">
+                <a href="#" class="header-logo">
+                    <img src="img/logo.svg" class="header-logo" alt="Lagoona">
+                </a>
+                <a href="tel:+74953225448" class="header-contact">
+                    +7 495 322-54-48
+                </a>
+                <a href="#" class="header-private flex">
+                    Личный кабинет
+                </a>
+            </div>
+            <div class="header-string flex">
+                <nav class="header-nav flex">
+                    <ul class="list-reset header-list flex">
+                        <li class="header-list-item">
+                            <a href="#hero" class="header-link">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#" class="header-link">
+                                Услуги
+                            </a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#" class="header-link">
+                                Преимущества
+                            </a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#" class="header-link">
+                                Размещение
+                            </a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#" class="header-link">
+                                Блог
+                            </a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#" class="header-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="list-reset header-bth flex">
+                    <li class="header-bth-item ">
+                        <button class="btn-reset header-btn-item-link">
+                            Хочу тур
+                        </button>
                     </li>
-                    <li class="header-list-item">
-                        <a href="#" class="header-link">
-                            Услуги
-                        </a>
-                    </li>
-                    <li class="header-list-item">
-                        <a href="#" class="header-link">
-                            Преимущества
-                        </a>
-                    </li>
-                    <li class="header-list-item">
-                        <a href="#" class="header-link">
-                            Размещение
-                        </a>
-                    </li>
-                    <li class="header-list-item">
-                        <a href="#" class="header-link">
-                            Блог
-                        </a>
-                    </li>
-                    <li class="header-list-item">
-                        <a href="#" class="header-link">
-                            Контакты
-                        </a>
+                    <li class="header-bth-item ">
+                        <button class="btn-reset header-btn-item-link">
+                            Обратный звонок
+                        </button>
                     </li>
                 </ul>
-            </nav>
-            <ul class="header-bth">
-                <li class="header-bth-item">
-                    <button class="header-btn-item-link">
-                        Хочу тур
-                    </button>
-                </li>
-                <li class="header-bth-item">
-                    <button class="header-btn-item-link">
-                        Обратный звонок
-                    </button>
-                </li>
-            </ul>
+            </div>
         </div>
     </header>
     <aside class="aside">
         <div class="container">
-            <h2 class="asude title aside-special">
+            <h2 class="aside-title aside-special flex">
                 Спецпредложения
             </h2>
-            <ul class="aside-list">
-                <li class="aside-list-item">
-                    <img src="img/aside-1.jpg" class="aside-list-pic" alt="Мальдивские острова">
-                    <div class="aside-list-text">
-                        <p class="aside-list-offer">
+            <div class="list-reset aside-list flex">
+                <div class="aside-link-tur flex">
+                    <div class="aside-list-item">
+                        <h3 class="aside-list-offer">
                             Мальдивские острова
-                        </p>
+                        </h3>
                         <p class="aside-list-price">
                             от&nbsp;55&nbsp;000&nbsp;₽
                         </p>
@@ -86,13 +91,10 @@
                             Подробнее
                         </a>
                     </div>
-                </li>
-                <li class="aside-list-item">
-                    <img src="img/aside-2.jpg" class="aside-list-pic" alt="Остров Крит">
-                    <div class="aside-list-text">
-                        <p class="aside-list-offer">
+                    <div class="aside-list-item">
+                        <h3 class="aside-list-offer">
                             Горящий тур на&nbsp;остров Крит
-                        </p>
+                        </h3>
                         <p class="aside-list-price">
                             от&nbsp;30&nbsp;000&nbsp;₽
                         </p>
@@ -100,13 +102,12 @@
                             Подробнее
                         </a>
                     </div>
-                </li>
-                <li class="aside-list-item">
-                    <img src="img/aside-3.jpg" class="aside-list-pic" alt="Номера категории люкс">
-                    <div class="aside-list-text">
-                        <p class="aside-list-offer">
+                </div>
+                <div class="aside-list-lux flex">
+                    <div class="aside-list-item">
+                        <h3 class="aside-list-offer">
                             Номера категории люкс
-                        </p>
+                        </h3>
                         <p class="aside-list-price">
                             от&nbsp;5&nbsp;000&nbsp;₽
                         </p>
@@ -114,14 +115,14 @@
                             Подробнее
                         </a>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </aside>
     <main class="main">
-        <section class="hero">
+        <section class="section-offset hero">
             <div class="container">
-                <h2 class="section title hero-title">
+                <h2 class="section-title hero-title">
                     О&nbsp;нас
                 </h2>
                 <p class="hero-text">
@@ -134,49 +135,57 @@
                 </p>
             </div>
         </section>
-        <section class="services">
+        <section class="section-offset services">
             <div class="container">
-                <h2 class="section title services-title">
+                <h2 class="section-title services-title">
                     Услуги
                 </h2>
-                <ul class="services-lists">
-                    <li class="services-item">
+                <ul class="list-reset services-lists flex">
+                    <li class="services-item flex">
                         <div class="services-text">
-                            <a href="#" class="services-link">
-                                Эксклюзивное обслуживание
-                            </a>
-                            <p class="services-link-descr">
+                            <h3>
+                                <a href="#" class="services-link">
+                                    Эксклюзивное обслуживание
+                                </a>
+                            </h3>
+                            <p class="section-descr services-link-descr">
                                 Равным образом постоянный количественный рост и&nbsp;сфера нашей активности
                             </p>
                         </div>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <div class="services-text">
-                            <a href="#" class="services-link">
-                                Аренда банкетных залов
-                            </a>
-                            <p class="services-link-descr">
+                            <h3>
+                                <a href="#" class="services-link">
+                                    Аренда банкетных залов
+                                </a>
+                            </h3>
+                            <p class="section-descr services-link-descr">
                                 Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм
                             </p>
                         </div>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <div class="services-text">
-                            <a href="#" class="services-link">
-                                Сауны, бассейны, бани, фитнес-залы
-                            </a>
-                            <p class="services-link-descr">
+                            <h3>
+                                <a href="#" class="services-link">
+                                    Сауны, бассейны, бани, фитнес-залы
+                                </a>
+                            </h3>
+                            <p class="section-descr services-link-descr">
                                 Не&nbsp;следует, однако забывать, что начало повседневной работы по&nbsp;формированию
                                 позиции
                             </p>
                         </div>
                     </li>
-                    <li class="services-item">
+                    <li class="services-item flex">
                         <div class="services-text">
-                            <a href="#" class="services-link">
-                                Охраняемые автомобильные стоянки
-                            </a>
-                            <p class="services-link-descr">
+                            <h3>
+                                <a href="#" class="services-link">
+                                    Охраняемые автомобильные стоянки
+                                </a>
+                            </h3>
+                            <p class="section-descr services-link-descr">
                                 Не&nbsp;следует, однако забывать, что начало повседневной работы по&nbsp;формированию
                                 позиции
                             </p>
@@ -185,12 +194,12 @@
                 </ul>
             </div>
         </section>
-        <section class="advantages">
+        <section class="section-offset advantages">
             <div class="container">
-                <h2 class="section title advantages-title">
+                <h2 class="section-title advantages-title">
                     Преимущества
                 </h2>
-                <ul class="advantages-lists">
+                <ul class="list-reset advantages-lists flex">
                     <li class="advantages-item">
                         <div class="advantages-text">
                             Идейные соображения высшего порядка, а&nbsp;также постоянный количественный рост
@@ -234,12 +243,12 @@
                 </ul>
             </div>
         </section>
-        <section class="place">
+        <section class="section-offset place">
             <div class="container">
-                <h2 class="section title place-title">
+                <h2 class="section-title place-title">
                     Размещение
                 </h2>
-                <ul class="place-lists">
+                <ul class="list-reset place-lists flex">
                     <li class="place-item">
                         <div class="place-users">
                             <div class="place-image">
@@ -255,13 +264,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-2.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona espa&ntilde;ola
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -281,13 +290,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-2.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona son t&iacute;picas
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -307,13 +316,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-1.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona de&nbsp;la&nbsp;guerra
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -333,13 +342,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-1.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona mentira piadosa
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -359,13 +368,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-2.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona empujar la&nbsp;creatividad
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -385,13 +394,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-2.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona el&nbsp;retorno
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -411,13 +420,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-1.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona mentira piadosa
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
@@ -437,13 +446,13 @@
                                 <img src="img/star-1.png" alt="">
                                 <img src="img/star-2.png" alt="">
                             </div>
-                            <div class="place-name">
+                            <h3 class="place-name">
                                 Lagoona suerte sigui&oacute; siempre
-                            </div>
+                            </h3>
                             <span class="place-city">
                                 Барселона, Испания
                             </span>
-                            <button class="place-btn">
+                            <button class="btn-reset place-btn">
                                 Номера
                             </button>
                         </div>
